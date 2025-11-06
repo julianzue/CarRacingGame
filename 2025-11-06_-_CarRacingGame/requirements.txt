@@ -1,0 +1,26 @@
+# Car Racing Game Dependencies
+# 3D Car Racing Game with OpenGL and Pygame
+
+# Core graphics and game engine
+pygame==2.5.2
+PyOpenGL==3.1.7
+PyOpenGL-accelerate==3.1.7
+
+# Math and scientific computing (for physics calculations)
+numpy==1.24.3
+
+# Additional OpenGL utilities (optional but recommended)
+# Uncomment if you need additional OpenGL functionality
+# PyOpenGL-accelerate==3.1.7
+
+# Development and debugging tools (optional)
+# Uncomment for development
+# pytest==7.4.0
+# black==23.7.0
+# flake8==6.0.0
+
+# Platform-specific notes:
+# On Windows: All dependencies should install via pip
+# On macOS: You may need to install OpenGL drivers
+# On Linux: You may need to install system OpenGL libraries:
+#   sudo apt-get install python3-opengl freeglut3-dev
