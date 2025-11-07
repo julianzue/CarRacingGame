@@ -335,7 +335,7 @@ class LoadingScreen:
         ui_surface.blit(tip_surface, tip_rect)
         
         # Draw version info
-        version_text = "v1.6"
+        version_text = "v1.7"
         version_surface = self.font_small.render(version_text, True, (100, 100, 120))
         version_rect = version_surface.get_rect(bottomright=(self.width - 20, self.height - 20))
         ui_surface.blit(version_surface, version_rect)
@@ -400,3 +400,4 @@ class LoadingScreen:
     def is_complete(self):
         """Check if loading is complete"""
         return self.progress >= 100
+
