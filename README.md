@@ -21,11 +21,8 @@ Welcome to the **Car Racing Game**, a thrilling and immersive racing experience 
    ```bash
    git clone <repository-url>
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd 2025-11-07_-_CarRacingGame
-   ```
-3. Install the required dependencies:
+   
+2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -83,5 +80,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 - Special thanks to all contributors and testers.
 - Inspired by classic racing games and modern simulation techniques.
+
 
 Enjoy the race and may the best driver win!
